@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+html,body{
+    width:100%;
+    height: 100%;
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.left img{
+    width: 50px;
+}
+header{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    height: 66px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+nav{
+    font-size: 12px;
+    padding-top: 12px;
+  
+}
+.container{
+    padding:0 10vw;
+  
+   
+}
+ nav ul li{
+   list-style: none;
+ 
+   padding: 0 20px;
+   
+    
+}
+.search{
+    width: 30vw;
+    border: 2px solid black;
+border-radius: 5px;
+}
+.homeimg{
+    width: 80vw;
+}
+.my2{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.rightbox{
+    display: flex;
+    margin: 12px;
+}
+@media (max-width:1300px){
+    header{
+        background-color: aqua;
+        height: 122px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .right{
+        flex-direction: column;
+    }
+    .rightbox{
+        display: flex;
+        margin: 12px;
+    }
+    nav ul li{
+        padding:0 5px;
+        list-style: none;
+        font-size:12px;
+    }
+    .container{
+        padding: 0 2vw;
+    }
+    
+}
